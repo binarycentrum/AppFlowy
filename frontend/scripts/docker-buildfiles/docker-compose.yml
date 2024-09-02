@@ -21,7 +21,6 @@ services:
       - NO_AT_BRIDGE=1 # fixes dbind-WARNING
     volumes:
       - appflowy-data:/home/appflowy
-      - $HOME/.Xauthority:/root/.Xauthority:rw
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /dev/dri:/dev/dri
       - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
