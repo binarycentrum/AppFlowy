@@ -21,4 +21,3 @@ services:
       - NO_AT_BRIDGE=1 # fixes dbind-WARNING
     volumes:
       - appflowy-data:/home/appflowy
-    network_mode: host
